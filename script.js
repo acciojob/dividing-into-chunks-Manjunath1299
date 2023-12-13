@@ -2,7 +2,7 @@ const divide = (arr, n) => {
   const result = [];
   let currentSubarray = [];
 
-  // Iterate through the input array
+  
   for (const num of arr) {
     // Check if adding the current number exceeds the maximum sum
     if (currentSubarray.reduce((acc, val) => acc + val, 0) + num <= n) {
